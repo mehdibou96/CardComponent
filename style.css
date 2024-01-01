@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+height:400px ;
+width: 70%;
+background-color: hsl(244, 38%, 16%);
+display: flex;
+border-radius: 10px;
+overflow: hidden;
+}
+.box1{
+    padding: 50px;
+    font-family:'Inter', sans-serif;
+    width: 50%;
+height: 100%;
+}
+.box1 h1{
+    color: white;
+    width: 90%;
+
+}
+.box1 h1 b{
+    color: hsl(277, 64%, 61%);
+
+}
+.box1 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+    font-size: 15px;
+    width: 80%;
+}
+.box1 ul{
+    color:hsla(0, 0%, 100%, 0.6);
+    list-style: none;
+    margin-top:20px ;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 70px;
+
+}
+.box1 ul li span{
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+
+.box2{
+    width: 50%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+}
+.box2 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
